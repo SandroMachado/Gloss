@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         print(repo.url)
         print(repo.owner)
         print(repo.primaryLanguage?.rawValue)
-        print("", appendNewline: false)
+        print("", terminator: "\n")
         
         print("JSON: \(repo.toJSON())")
     }
